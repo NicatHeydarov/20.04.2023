@@ -1,0 +1,34 @@
+
+body{
+    background-color: gray;
+
+}
+.text{
+     
+     margin: 10%; 
+    margin-left: 40%;
+    color: white;   
+    border-radius: 50%;
+    
+}
+
+
+.cubes .cube{
+    margin-left: 10%;
+    width: 200px;
+    height: 270px;
+    background-color: white;
+    border-radius: 8px;
+    color: rgb(95, 94, 94);
+    transition: tranfsorm.0.7s ease;
+}
+.cubes{
+    display: flex;
+}
+.cubes .cube:hover{
+    transform: translateY(-20px);
+    box-shadow: rgba(0,0,0,0.25) 0px 14px 28px,rgba(0,0,0,0.22) 0px 10px 10px;
+}
+.text .button
+
+
